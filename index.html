@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="screen">
+        <img id="egg" src="images/egg.png" onclick="tamaStart()">
+    </div>
+    <div id="status">
+        <div id="buttons">
+            <button id="feed" onclick="foodTime()">Feed</button>
+            <button id="play" onclick="playTime()">Play</button>
+            <button id="clean" onclick="bathTime()">Clean</button>
+            <button id="sleep" onclick="bedTime()">Sleep</button>
+        </div>
+        <h3>Status</h3>
+        <p id = "statusVar"> </p>
+        <p id="statusText">The egg is ready to hatch<br>
+        (click to hatch)
+        </p>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
